@@ -19,6 +19,7 @@ num = 0
 
 start = int(input("基準の数字を入力してください: "))
 
+# 偶数かつ10以下の数を抽出する
 while num <= 30:
     if num % 2 == 0 and num >= start:
         result.append(num)
