@@ -38,3 +38,13 @@ while num <= 50:
         result.append(num)
     num += 1
 print(result)
+
+result = []
+for num in range(51):
+    is_even = num % 2 == 0
+    is_over_10 = num >= 10
+    is_not_multiple_of_4 = num % 4 != 0
+    if is_even and is_over_10 and is_not_multiple_of_4:
+        # この条件式は「偶数」「10以上」「4の倍数ではない」を表す
+        result.append(num)
+print(result)
