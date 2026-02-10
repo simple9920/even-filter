@@ -26,3 +26,15 @@ while num <= 30:
     num += 1
 
 print(result)
+
+result = []
+num = 0
+while num <= 50:
+    #is_even = num % 2 == 0
+    #is_over_10 = num >= 10
+    #is_not_multiple_of_4 = num % 4 != 0
+    #if is_ever and is_over_10 and is_not_multiple_of_4:
+    if num % 2 == 0 and num >= 10 and num % 4 != 0:
+        result.append(num)
+    num += 1
+print(result)
