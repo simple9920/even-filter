@@ -20,6 +20,7 @@ print(multiple_of_five(30))
     
 #何の倍数
 def multiple(limit, base):
+    #limit(どこまで),base(何の倍数)
     result = []
     for num in range(limit + 1):
         if num % base == 0:
@@ -30,6 +31,7 @@ print(multiple(30, 3))
 
 #limit, base , min_value
 def multiple(limit, base, min_value):
+    #min_value(この数以上だけ)
     result = []
     for num in range(limit + 1):
         if num % base == 0 and num >= min_value:
