@@ -1,4 +1,5 @@
-#関数
+#関数　① 関数を書く　② 実行部分を書く
+
 def double_input():
     while True:
         try:
