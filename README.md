@@ -28,7 +28,7 @@ Pythonの条件分岐（if文）とループ（while / for）の練習用リポ�
 
 ##  学習方針
 - 未経験からPython学習開始
-- 2月はProgate「Pythonコース I〜IV」に集中
+- 2月はProgate「Pythonコース Ⅰ〜Ⅱ」に集中
 - 毎日Day単位で積み上げ
 - 理解重視
 
@@ -64,7 +64,7 @@ Pythonの条件分岐（if文）とループ（while / for）の練習用リポ�
 
 ---
 
-# 📘 Day12（リスト & ループ理解）
+# 📘 Day12（リスト & ループ）
 
 ##  リスト、リスト書き換え
 
@@ -120,3 +120,18 @@ Pythonの条件分岐（if文）とループ（while / for）の練習用リポ�
 ## startswith()
 
 ## endswith()
+---
+
+# 📘  Day15～day20
+
+# shallow copy・参照
+
+# 二重for
+
+# 2Dリスト生成
+- ループ生成
+
+# 対角線パターン
+- 3x3・4x4
+
+
